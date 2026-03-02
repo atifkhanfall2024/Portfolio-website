@@ -30,7 +30,11 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg text-text-secondary leading-relaxed">
-            Hello! I'm Muhammad Atif khan, a driven Full Stack Web Developer with a strong foundation in computer science and a knack for crafting efficient, user-centric applications. My journey into tech is fueled by a desire to learn, innovate, and contribute to projects that make a difference. I thrive in collaborative environments and am always excited to tackle new challenges.
+           I’m Muhammad Atif Khan, a Full Stack Developer (MERN / Next.js) and Generative AI enthusiast currently studying Computer Science at University of Engineering & Technology, Peshawar.
+
+I build scalable web applications using React, Next.js, Node.js, MongoDB, and TypeScript, with a strong focus on clean architecture, secure authentication, and production-ready systems.
+
+I also develop AI-powered applications using LLM APIs, RAG, and vector search, and I’m actively exploring agent-based workflows and intelligent systems.
           </p>
           {/* Optional: Add a profile image here */}
           {/* <img src={profilePlaceholder} alt="Aditi Arya" className="w-40 h-40 rounded-full mx-auto my-6 border-4 border-accent-1" /> */}

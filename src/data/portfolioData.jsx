@@ -3,12 +3,12 @@ import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypesc
 
 export const personalInfo = {
   name: "M Atif khan",
-  title: "Full Stack Developer (MERN)",
+  title: "AI Powered Full Stack Developer",
   email: "muhammadatifkhan0906@gmail.com",
   linkedin: "https://www.linkedin.com/in/muhammad-atif-khan-183217319/",
   github: "https://github.com/atifkhanfall2024",
   resumeLink: "/Muhammad Atif khan Resume.pdf", // Make sure your resume is in public/
-  bio: "Innovative Full Stack Developer passionate about creating seamless and impactful web solutions. Eager to leverage modern technologies to solve real-world problems and contribute to dynamic team environments.",
+  bio: "Muhammad Atif Khan is a Full Stack Developer (MERN / Next.js) and Generative AI enthusiast from Peshawar, currently studying Computer Science at University of Engineering & Technology, Peshawar. He builds scalable web applications and AI-powered systems using modern technologies like React, Node.js, MongoDB, TypeScript, and LLM APIs. Passionate about problem-solving, clean architecture, and intelligent systems.",
   shortBio: "I build things for the web." // For Hero section
 };
 
@@ -45,12 +45,12 @@ export const projects = [
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
-    title: "Complaints-Tracking-Resolver",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
-    description: "Complaints Tracking Resolver is a web-based system designed to register, monitor, and resolve user complaints efficiently. It supports automated status updates, email notifications, and admin panel controls for faster resolution. Built for transparency and accountability, it's ideal for organizations managing high complaint volumes.",
+    title: "AI Powered Customer Support Website",
+    tech: ["Next JS", "TypeScript", "Scalekit", "MongoDB"],
+    description: "AI-powered customer support platform built with Next.js, Node.js, and LLM APIs to deliver instant, intelligent responses.Features secure authentication, real-time chat, and customizable chatbot integration for businesses.Designed to automate support workflows, reduce response time, and enhance customer experience.",
   
-    githubLink: "https://github.com/atifkhanfall2024/Complaints-tracking", // Replace with actual link
-    liveLink: "https://even.vercel.app/",
+    githubLink: "https://github.com/atifkhanfall2024/support-ai", // Replace with actual link
+    liveLink: "https://support-ai-beige.vercel.app/dashboard",
     category: "Full Stack",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
