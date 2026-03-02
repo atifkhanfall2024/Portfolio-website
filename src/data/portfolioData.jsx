@@ -1,19 +1,37 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma, FaDragon, FaAws, FaDocker } from 'react-icons/fa'; // Example icons
-import { FaPython } from "react-icons/fa";
-import { FaBrain } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus,
- SiPython, SiZod, SiChatbot, 
- SiPostgresql} from 'react-icons/si'; // More specific tech icons
-  import { RiNextjsFill } from "react-icons/ri";
-  import { SiTypescript } from "react-icons/si";
-  import { SiZod } from "react-icons/si";
-  import { GrGenai } from "react-icons/gr";
-  import { FaDragon } from "react-icons/fa";
-  import { SiChatbot } from "react-icons/si";
-    import { FaDocker } from "react-icons/fa";
-  import { BsCursor } from "react-icons/bs";
-  import { FaAws } from "react-icons/fa";
-  import { SiPostgresql } from "react-icons/si";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaPhone,
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaCode,
+  FaHtml5,
+  FaCss3Alt,
+  FaDragon,
+  FaAws,
+  FaDocker,
+  FaPython,
+  FaBrain
+} from "react-icons/fa";
+
+import {
+  SiExpress,
+  SiMongodb,
+  SiFirebase,
+  SiTailwindcss,
+  SiJavascript,
+  SiTypescript,
+  SiCplusplus,
+  SiZod,
+  SiChatbot,
+  SiPostgresql
+} from "react-icons/si";
+
+import { RiNextjsFill } from "react-icons/ri";
+import { GrGenai } from "react-icons/gr";
+import { BsCursor } from "react-icons/bs";
 
 export const personalInfo = {
   name: "M Atif khan",
