@@ -1,5 +1,19 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma } from 'react-icons/fa'; // Example icons
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython } from 'react-icons/si'; // More specific tech icons
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma, FaDragon, FaAws, FaDocker } from 'react-icons/fa'; // Example icons
+import { FaPython } from "react-icons/fa";
+import { FaBrain } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus,
+ SiPython, SiZod, SiChatbot, 
+ SiPostgresql} from 'react-icons/si'; // More specific tech icons
+  import { RiNextjsFill } from "react-icons/ri";
+  import { SiTypescript } from "react-icons/si";
+  import { SiZod } from "react-icons/si";
+  import { GrGenai } from "react-icons/gr";
+  import { FaDragon } from "react-icons/fa";
+  import { SiChatbot } from "react-icons/si";
+    import { FaDocker } from "react-icons/fa";
+  import { BsCursor } from "react-icons/bs";
+  import { FaAws } from "react-icons/fa";
+  import { SiPostgresql } from "react-icons/si";
 
 export const personalInfo = {
   name: "M Atif khan",
@@ -51,17 +65,18 @@ export const projects = [
   
     githubLink: "https://github.com/atifkhanfall2024/support-ai", // Replace with actual link
     liveLink: "https://support-ai-beige.vercel.app/dashboard",
-    category: "Full Stack",
+    category: "Full Stack AI",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
-    title: "Netflix-Gpt",
-    tech: ["React JS", "firebase" , 'Gemini Api'],
-    description: "Netflix GPT is an AI-powered movie and series recommender that suggests content based on user preferences using GPT-based algorithms. It features a sleek interface, dynamic search, and real-time content filtering. Built for entertainment lovers, it enhances user experience with personalized recommendations.",
+    title: "AI Powered Mystry Messages",
+    tech: ["NextJS", "TypeScript" , "OAuth" ,  "firebase" , 'Gemini Api'],
+    description: "AI-powered anonymous messaging platform that allows users to send and receive mystery messages securely.Built with modern full-stack technologies and LLM integration for smart moderation and intelligent responses.Designed to ensure privacy, engagement, and a seamless real-time user experience.",
    // date: "Feb 2025 – Present",
-    githubLink: "https://github.com/atifkhanfall2024/Netflex-GPT",
+    githubLink: "https://github.com/atifkhanfall2024/FullStack_NextJs_Project",
+    liveLink:"https://mysterymessagesplatform-nxvvpu49r-atifkhanfall2024s-projects.vercel.app/",
    
-    category: "Reactjs Firebase",
+    category: "FullStack AI",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
@@ -91,26 +106,39 @@ export const skills = {
     { name: "C/C++", icon: <SiCplusplus /> },
     { name: "JavaScript", icon: <SiJavascript /> },
     // { name: "TypeScript", icon: <SiTypescript /> }, // Add if you use it
-    { name: "HTML5", icon: <FaHtml5 /> },
+    { name: "Python", icon: <FaPython /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
     { name: "SQL", icon: <FaDatabase /> },
   ],
+ 
   frameworksAndLibraries: [
     { name: "React JS", icon: <FaReact /> },
     { name: "Node JS", icon: <FaNodeJs /> },
     { name: "Express JS", icon: <SiExpress /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+      { name: "Agentic AI", icon: <FaBrain /> },
+        { name: "NextJS", icon: <RiNextjsFill /> },
+          { name: "TypeScript", icon: <SiTypescript /> },
+            { name: "ZOD", icon: <SiZod /> },
+              { name: "Gen AI", icon: <GrGenai /> },
+                { name: "RAG System", icon: <FaDragon /> },
+                  { name: "LLM And Chatbots", icon: <SiChatbot /> },
     // You are using it!
    
   ],
   toolsAndPlatforms: [
     { name: "MongoDB", icon: <SiMongodb /> },
+     { name: "Postgre SQL", icon: <SiPostgresql /> },
+    { name: "Cursor", icon: <BsCursor /> },
+    { name: "AWS", icon: <FaAws /> },
     { name: "Firebase", icon: <SiFirebase /> },
+    { name: "Docker", icon: <FaDocker /> },
     { name: "Git & GitHub", icon: <FaGithub /> },
     { name: "VS Code", icon: <FaCode /> }, // Or a more specific icon
     { name: "Postman", icon: <FaCode /> }, // Placeholder icon
     { name: "Google Cloud Platform", icon: <FaCode /> }, // Placeholder icon
   ],
+
   coreCompetencies: [
     "Problem Solving",
     "Presentations",
