@@ -160,12 +160,20 @@ export const skills = {
 };
 
 export const leadershipAndInvolvement = [
+   {
+    role: "AI-Powered Full Stack Developer (Next.js & TypeScript)",
+    organization: "Flutter Craft",
+    duration: "January-2026 – Present",
+    points: [
+      "AI-Powered Full Stack Developer specializing in Next.js and TypeScript, building intelligent and scalable web applications. Experienced in integrating AI/LLM features for real-time user interactions. Passionate about delivering innovative, AI-driven solutions at Flutter Craft.",
+    ],
+  },
   {
     role: "Junior MERN Stack Developer",
-    organization: "Hamhib Coders",
-    duration: "September 2024 – Present",
+    organization: "Wrapify Solution",
+    duration: "Febuary 2025 – January 2026",
     points: [
-      "Worked as a Junior MERN Stack Developer at HamHib Coders, contributing to real-time web applications using MongoDB, Express.js, React, and Node.js. Gained hands-on experience in REST APIs, authentication, and scalable backend systems.",
+      "Worked as a Junior MERN Stack Developer at Wrapify Solutions, contributing to real-time web applications using MongoDB, Express.js, React, and Node.js. Gained hands-on experience in REST APIs, authentication, and scalable backend systems.",
     ],
   },
   {
