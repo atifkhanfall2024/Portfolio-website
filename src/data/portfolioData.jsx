@@ -26,15 +26,15 @@ import {
   SiCplusplus,
   SiZod,
   SiChatbot,
-  SiPostgresql
+  SiPostgresql,
+  SiOpenai // Fixed Gen AI icon
 } from "react-icons/si";
 
 import { RiNextjsFill } from "react-icons/ri";
-import { GrGenai } from "react-icons/gr";
 import { BsCursor } from "react-icons/bs";
 
 export const personalInfo = {
-  name: "M Atif khan",
+  name: "M Atif Khan",
   title: "AI Powered Full Stack Developer",
   email: "muhammadatifkhan0906@gmail.com",
   linkedin: "https://www.linkedin.com/in/muhammad-atif-khan-183217319/",
@@ -71,48 +71,42 @@ export const projects = [
     tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
     description: "Dev Connect is a full-stack developer platform featuring real-time communication via WebSockets and secure payment gateway integration. It uses task scheduling, email notifications, and job queues to manage large-scale operations efficiently. The app is deployed on AWS, built for backend performance and real-world scalability.",
     date: "June 2025 – July 2025",
-    githubLink: "https://github.com/atifkhanfall2024/DevConnect", // Replace with actual link
-    liveLink: 'http://51.20.42.63/', // Replace with actual link if available
+    githubLink: "https://github.com/atifkhanfall2024/DevConnect",
+    liveLink: 'http://51.20.42.63/',
     category: "Full Stack",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
     title: "AI Powered Customer Support Website",
     tech: ["Next JS", "TypeScript", "Scalekit", "MongoDB"],
-    description: "AI-powered customer support platform built with Next.js, Node.js, and LLM APIs to deliver instant, intelligent responses.Features secure authentication, real-time chat, and customizable chatbot integration for businesses.Designed to automate support workflows, reduce response time, and enhance customer experience.",
-  
-    githubLink: "https://github.com/atifkhanfall2024/support-ai", // Replace with actual link
+    description: "AI-powered customer support platform built with Next.js, Node.js, and LLM APIs to deliver instant, intelligent responses. Features secure authentication, real-time chat, and customizable chatbot integration for businesses. Designed to automate support workflows, reduce response time, and enhance customer experience.",
+    githubLink: "https://github.com/atifkhanfall2024/support-ai",
     liveLink: "https://support-ai-beige.vercel.app/dashboard",
     category: "Full Stack AI",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
-    title: "AI Powered Mystry Messages",
-    tech: ["NextJS", "TypeScript" , "OAuth" ,  "firebase" , 'Gemini Api'],
-    description: "AI-powered anonymous messaging platform that allows users to send and receive mystery messages securely.Built with modern full-stack technologies and LLM integration for smart moderation and intelligent responses.Designed to ensure privacy, engagement, and a seamless real-time user experience.",
-   // date: "Feb 2025 – Present",
+    title: "AI Powered Mystery Messages",
+    tech: ["NextJS", "TypeScript", "OAuth", "Firebase", "Gemini API"],
+    description: "AI-powered anonymous messaging platform that allows users to send and receive mystery messages securely. Built with modern full-stack technologies and LLM integration for smart moderation and intelligent responses. Designed to ensure privacy, engagement, and a seamless real-time user experience.",
     githubLink: "https://github.com/atifkhanfall2024/FullStack_NextJs_Project",
     liveLink:"https://mysterymessagesplatform-nxvvpu49r-atifkhanfall2024s-projects.vercel.app/",
-   
     category: "FullStack AI",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
     title: "Coinbase Healthblock",
-    tech: ["React JS", "Node JS", "Solidity", "Web 3" , 'MetaMask'],
+    tech: ["React JS", "Node JS", "Solidity", "Web 3", "MetaMask"],
     description: "HealthBlock Coinbase is a blockchain-based medical record management system that ensures secure, transparent, and tamper-proof health data storage. It leverages Coinbase blockchain technology to give patients full control over their medical records. Designed for privacy and trust, it brings innovation to healthcare data handling.",
-  
     githubLink: "https://github.com/atifkhanfall2024/Coinbase-HealthBlock",
-   
     category: "Blockchain",
     icon: <SiFirebase size={24} className="text-accent-1"/>
   },
   {
     title: "Facial Emotion Detection",
-    tech: ["React.js", "Node.js", "MongoDB" , 'Python' , 'OpenCV'],
+    tech: ["React.js", "Node.js", "MongoDB", "Python", "OpenCV"],
     description: "Facial Emotion Detection is an AI-based system that analyzes facial expressions in real-time to identify human emotions like happiness, anger, and sadness. It uses computer vision and machine learning models for accurate emotion recognition. Ideal for applications in security, education, and user experience enhancement.",
-    //date: "Jan 2025 – Present",
-    githubLink: "https://github.com/atifkhanfall2024/Facial_Emotion_detection", // Replace with actual link
+    githubLink: "https://github.com/atifkhanfall2024/Facial_Emotion_detection",
     liveLink: null,
     category: "Face Detection",
     icon: <FaDatabase size={24} className="text-accent-1"/>
@@ -123,7 +117,6 @@ export const skills = {
   languages: [
     { name: "C/C++", icon: <SiCplusplus /> },
     { name: "JavaScript", icon: <SiJavascript /> },
-    // { name: "TypeScript", icon: <SiTypescript /> }, // Add if you use it
     { name: "Python", icon: <FaPython /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
     { name: "SQL", icon: <FaDatabase /> },
@@ -134,27 +127,26 @@ export const skills = {
     { name: "Node JS", icon: <FaNodeJs /> },
     { name: "Express JS", icon: <SiExpress /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-      { name: "Agentic AI", icon: <FaBrain /> },
-        { name: "NextJS", icon: <RiNextjsFill /> },
-          { name: "TypeScript", icon: <SiTypescript /> },
-            { name: "ZOD", icon: <SiZod /> },
-              { name: "Gen AI", icon: <GrGenai /> },
-                { name: "RAG System", icon: <FaDragon /> },
-                  { name: "LLM And Chatbots", icon: <SiChatbot /> },
-    // You are using it!
-   
+    { name: "Agentic AI", icon: <FaBrain /> },
+    { name: "NextJS", icon: <RiNextjsFill /> },
+    { name: "TypeScript", icon: <SiTypescript /> },
+    { name: "ZOD", icon: <SiZod /> },
+    { name: "Gen AI", icon: <SiOpenai /> }, // FIXED
+    { name: "RAG System", icon: <FaDragon /> },
+    { name: "LLM And Chatbots", icon: <SiChatbot /> },
   ],
+  
   toolsAndPlatforms: [
     { name: "MongoDB", icon: <SiMongodb /> },
-     { name: "Postgre SQL", icon: <SiPostgresql /> },
+    { name: "Postgre SQL", icon: <SiPostgresql /> },
     { name: "Cursor", icon: <BsCursor /> },
     { name: "AWS", icon: <FaAws /> },
     { name: "Firebase", icon: <SiFirebase /> },
     { name: "Docker", icon: <FaDocker /> },
     { name: "Git & GitHub", icon: <FaGithub /> },
-    { name: "VS Code", icon: <FaCode /> }, // Or a more specific icon
-    { name: "Postman", icon: <FaCode /> }, // Placeholder icon
-    { name: "Google Cloud Platform", icon: <FaCode /> }, // Placeholder icon
+    { name: "VS Code", icon: <FaCode /> },
+    { name: "Postman", icon: <FaCode /> },
+    { name: "Google Cloud Platform", icon: <FaCode /> },
   ],
 
   coreCompetencies: [
@@ -187,7 +179,7 @@ export const leadershipAndInvolvement = [
   {
     role: "Team Lead Of Web Dev",
     organization: "UET Computer Cell Society",
-    duration: "Sept 2024 - febuary 2025",
+    duration: "Sept 2024 - February 2025",
     points: [
       "Led the Web Development team at Computer Cell, UET Society, overseeing the creation and maintenance of dynamic websites for campus events and initiatives. Mentored junior developers and ensured timely delivery of high-quality, scalable web solutions.",
     ],
@@ -198,5 +190,4 @@ export const socialLinks = {
   linkedin: { url: personalInfo.linkedin, icon: <FaLinkedin size={24} /> },
   github: { url: personalInfo.github, icon: <FaGithub size={24} /> },
   email: { url: `mailto:${personalInfo.email}`, icon: <FaEnvelope size={24} /> },
-  // phone: { url: `tel:${personalInfo.phone}`, icon: <FaPhone size={24} /> }, // Optional
 };
